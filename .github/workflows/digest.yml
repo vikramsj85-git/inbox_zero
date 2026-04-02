@@ -1,0 +1,63 @@
+name: Inbox Zero — Daily Digest
+
+on:
+  schedule:
+    - cron: '0 12 * * 1-5'   # 7:00 AM EST (Mon–Fri) — Morning digest
+    - cron: '0 23 * * 1-5'   # 6:00 PM EST (Mon–Fri) — Evening digest
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Digest mode'
+        required: false
+        default: 'auto'
+        type: choice
+        options: [morning, evening, auto]
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write Gmail credentials
+        run: |
+          mkdir -p auth
+          echo '${{ secrets.GMAIL_CREDENTIALS }}' > auth/credentials.json
+          echo '${{ secrets.GMAIL_TOKEN }}' > auth/token.json
+
+      - name: Determine digest mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.mode }}" != "auto" ]; then
+            echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "0 12 * * 1-5" ]; then
+            echo "mode=morning" >> $GITHUB_OUTPUT
+          else
+            echo "mode=evening" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python main.py --triage --digest --pdf --mode ${{ steps.mode.outputs.mode }}
+
+      - name: Upload digest PDF
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: digest-${{ steps.mode.outputs.mode }}-${{ github.run_id }}
+          path: reports/*.pdf
+          retention-days: 7
