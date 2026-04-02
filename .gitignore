@@ -1,0 +1,18 @@
+# Auth — never commit credentials
+auth/token.json
+auth/credentials.json
+
+# Generated outputs
+reports/
+data/digest_log.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Env
+.env
+*.env
