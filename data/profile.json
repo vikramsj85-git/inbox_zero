@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "name": "Vikram",
+    "role": "Principal, Investment Strategist | Multi-Asset Risk Manager",
+    "gmail": "your_email@gmail.com"
+  },
+  "triage_rules": {
+    "urgent": [
+      "Keywords: urgent, ASAP, time-sensitive, deadline, action required, response needed today",
+      "From: direct reports, C-suite, recruiters with specific role offers",
+      "Subject contains: offer, term sheet, closing, wire, compliance deadline"
+    ],
+    "high_priority": [
+      "Job opportunities matching: quant research, risk manager, crypto, digital assets, market strategist, buy-side PM",
+      "Interview requests or scheduling",
+      "Recruiter outreach from target firms",
+      "Responses to outreach I sent",
+      "Financial institution communications"
+    ],
+    "medium_priority": [
+      "Professional network (LinkedIn notifications with actual messages)",
+      "Industry newsletters worth reading: crypto, macro, quant finance",
+      "Conference/event invitations relevant to target roles"
+    ],
+    "low_priority": [
+      "Marketing emails from financial data vendors",
+      "Generic recruiter mass outreach",
+      "Newsletter subscriptions",
+      "Promotional emails"
+    ],
+    "unsubscribe_candidates": [
+      "Bulk promotional emails with unsubscribe link",
+      "Newsletters not opened in 30+ days",
+      "Retail/shopping promotions",
+      "Generic mass recruiter emails with no specific role"
+    ]
+  },
+  "labels": {
+    "urgent": "ACTION/Urgent",
+    "job_opps": "JOBS/Opportunities",
+    "action_required": "ACTION/Urgent",
+    "follow_up": "ACTION/Follow-Up",
+    "to_read": "ACTION/To-Read",
+    "unsub_candidate": "ACTION/Unsub",
+    "archive_ready": "ACTION/Archive"
+  },
+  "draft_voice": {
+    "tone": "Direct, analytical, confident but not arrogant. Smart practitioner, not academic.",
+    "never_use": ["passionate about", "leverage synergies", "excited to announce", "thrilled", "circle back", "touch base"],
+    "outreach_style": "Under 150 words, one clear ask, lead with credibility not enthusiasm",
+    "response_style": "Answer the question directly, then any necessary context. No filler."
+  }
+}

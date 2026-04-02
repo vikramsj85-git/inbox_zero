@@ -1,0 +1,575 @@
+{
+  "reports@marketwatchmail.com": {
+    "name": "MarketWatch",
+    "first_seen": "2026-02-27",
+    "last_seen": "2026-03-06",
+    "email_count": 17,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "marketbrief@barrons.com": {
+    "name": "Barron's",
+    "first_seen": "2026-02-27",
+    "last_seen": "2026-02-28",
+    "email_count": 4,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "vikramsj85@gmail.com": {
+    "name": "Vikram",
+    "first_seen": "2026-02-27",
+    "last_seen": "2026-03-06",
+    "email_count": 30,
+    "priority_history": [
+      "low",
+      "low",
+      "low",
+      "low",
+      "high",
+      "low",
+      "high",
+      "low",
+      "high",
+      "low",
+      "high",
+      "medium",
+      "high",
+      "medium",
+      "high",
+      "low",
+      "high",
+      "low",
+      "high",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read",
+      "ACTION/Archive",
+      "JOBS/Opportunities",
+      "ACTION/Urgent"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 6,
+    "overrides": [],
+    "notes": ""
+  },
+  "no.reply.alerts@chase.com": {
+    "name": "Chase",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-01",
+    "email_count": 1,
+    "priority_history": [
+      "low"
+    ],
+    "avg_priority": "low",
+    "labels_applied": [
+      "ACTION/Archive"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "info@42macro.com": {
+    "name": "42 Macro",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-06",
+    "email_count": 16,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "no-reply@mygreatlearning.com": {
+    "name": "Great Learning",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-03",
+    "email_count": 7,
+    "priority_history": [
+      "low",
+      "low",
+      "medium",
+      "medium",
+      "urgent",
+      "unsubscribe_candidate",
+      "urgent"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/Archive",
+      "ACTION/To-Read",
+      "ACTION/Urgent",
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "noreply@dice.fm": {
+    "name": "DICE",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-02",
+    "email_count": 4,
+    "priority_history": [
+      "low",
+      "low",
+      "low",
+      "low"
+    ],
+    "avg_priority": "low",
+    "labels_applied": [
+      "ACTION/Archive"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "themacroinstitute@mail.beehiiv.com": {
+    "name": "The Macro Institute",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-06",
+    "email_count": 18,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "low",
+      "low",
+      "medium",
+      "low",
+      "medium",
+      "medium",
+      "low",
+      "low",
+      "low",
+      "low",
+      "unsubscribe_candidate",
+      "low",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "low",
+    "labels_applied": [
+      "ACTION/To-Read",
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 6,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "from@insights.thinkrichtoday.com": {
+    "name": "Factory Footage || via TRT",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-01",
+    "email_count": 2,
+    "priority_history": [
+      "unsubscribe_candidate",
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 2,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "manhattan.events@us.brahmakumaris.org": {
+    "name": "Brahma Kumaris Manhattan",
+    "first_seen": "2026-03-01",
+    "last_seen": "2026-03-05",
+    "email_count": 2,
+    "priority_history": [
+      "unsubscribe_candidate",
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 2,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "opening-bell@mail.beehiiv.com": {
+    "name": "Phil Rosen",
+    "first_seen": "2026-03-02",
+    "last_seen": "2026-03-06",
+    "email_count": 9,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "tradetank66@substack.com": {
+    "name": "Timothy Tanko from tradetank\u2019s Substack",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-06",
+    "email_count": 25,
+    "priority_history": [
+      "medium",
+      "medium",
+      "low",
+      "medium",
+      "low",
+      "medium",
+      "low",
+      "low",
+      "low",
+      "low",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate",
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "low",
+    "labels_applied": [
+      "ACTION/To-Read",
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 10,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "editor@thedailyshot.com": {
+    "name": "The Daily Shot",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-06",
+    "email_count": 4,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "access@barrons.com": {
+    "name": "Sabrina Escobar, Barron's",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-06",
+    "email_count": 6,
+    "priority_history": [
+      "medium",
+      "medium",
+      "medium",
+      "low",
+      "medium",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "notify@buildinglink.com": {
+    "name": "110 1st Street",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-05",
+    "email_count": 2,
+    "priority_history": [
+      "low",
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "hit-reply@linkedin.com": {
+    "name": "Sophia Sheridan",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-03",
+    "email_count": 2,
+    "priority_history": [
+      "high",
+      "high"
+    ],
+    "avg_priority": "high",
+    "labels_applied": [
+      "JOBS/Opportunities",
+      "ACTION/Urgent"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 1,
+    "overrides": [],
+    "notes": ""
+  },
+  "services@adventurerinn.com": {
+    "name": "Adventurer Oceanfront Inn",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-03",
+    "email_count": 1,
+    "priority_history": [
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "notifications@instructure.com": {
+    "name": "The Essentials of Applied Macro",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-03",
+    "email_count": 1,
+    "priority_history": [
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "coachingrealleaders@mn.co": {
+    "name": "The Coaching Real Leaders Community",
+    "first_seen": "2026-03-03",
+    "last_seen": "2026-03-06",
+    "email_count": 2,
+    "priority_history": [
+      "low",
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/To-Read",
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "sophia@searchchainpartners.com": {
+    "name": "Sophia Sheridan",
+    "first_seen": "2026-03-04",
+    "last_seen": "2026-03-04",
+    "email_count": 1,
+    "priority_history": [
+      "urgent"
+    ],
+    "avg_priority": "urgent",
+    "labels_applied": [
+      "ACTION/Urgent",
+      "JOBS/Opportunities"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 1,
+    "overrides": [],
+    "notes": ""
+  },
+  "no-reply@substack.com": {
+    "name": "Substack",
+    "first_seen": "2026-03-04",
+    "last_seen": "2026-03-04",
+    "email_count": 1,
+    "priority_history": [
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "service@mail6.zocdoc.com": {
+    "name": "Zocdoc",
+    "first_seen": "2026-03-04",
+    "last_seen": "2026-03-05",
+    "email_count": 2,
+    "priority_history": [
+      "unsubscribe_candidate",
+      "low"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "info@victoryboxing.com": {
+    "name": "Victory Boxing",
+    "first_seen": "2026-03-05",
+    "last_seen": "2026-03-05",
+    "email_count": 1,
+    "priority_history": [
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "labcorppatient@labcorpservicemessage.com": {
+    "name": "Labcorp Patient",
+    "first_seen": "2026-03-05",
+    "last_seen": "2026-03-05",
+    "email_count": 1,
+    "priority_history": [
+      "medium"
+    ],
+    "avg_priority": "medium",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "newsletter@pccmail.polynesia.com": {
+    "name": "Polynesian Cultural Center",
+    "first_seen": "2026-03-06",
+    "last_seen": "2026-03-06",
+    "email_count": 1,
+    "priority_history": [
+      "unsubscribe_candidate"
+    ],
+    "avg_priority": "unsubscribe_candidate",
+    "labels_applied": [
+      "ACTION/Unsub"
+    ],
+    "unsub_flagged": 1,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  },
+  "no-reply@mail.coinbase.com": {
+    "name": "Coinbase",
+    "first_seen": "2026-03-06",
+    "last_seen": "2026-03-06",
+    "email_count": 1,
+    "priority_history": [
+      "low"
+    ],
+    "avg_priority": "low",
+    "labels_applied": [
+      "ACTION/To-Read"
+    ],
+    "unsub_flagged": 0,
+    "draft_requested": 0,
+    "overrides": [],
+    "notes": ""
+  }
+}
